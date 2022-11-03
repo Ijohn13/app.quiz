@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Application de Quiz</title>
+</head>
+<body>
+    <main>
+        <div class="quiz">
+            <div id="welcomescreen" class="welcomeScreen">
+                <h1 class="quiz__maintitle">BIENVENUE SUR CE QUIZ!</h1>
+                <p class="quiz__description">
+                    Il sera composé de 
+                    <span class="nbquestion">x</span> 
+                    questions...
+                </p>
+                <button id="quizBtn" class="quiz__btn">OK</button>
+            </div>
+
+            <div id="questionScreen" class="questionscreen">
+            </div>
+
+            <div id="resultScreen" class="resultScreen">
+                <h2 class="quiz__subtitle">RESULTATS!</h2>
+                <p class="quiz__description">
+                    <span id="nbcorrect">0</span>  
+                    réponse(s) sur 
+                    <span class="nbquestion">x</span>  
+                    correctes
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
